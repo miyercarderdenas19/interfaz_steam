@@ -20,7 +20,7 @@ class Login:
         titulo = Label(ventana_login, text="INICIAR SESION", fg="black", font=("Comic Sans", 13, "bold"), pady=10).pack()
 
         "--------------- Loginlogo --------------------"
-        imagen_login = Image.open("c:/nueva carpeta/imagenes/descarga.jpg")
+        imagen_login = Image.open("./steamcontrol.ico")
         nueva_imagen = imagen_login.resize((150, 60))
         render = ImageTk.PhotoImage(nueva_imagen)
         label_imagen = Label(ventana_login, image=render)

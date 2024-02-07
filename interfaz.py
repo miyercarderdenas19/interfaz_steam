@@ -46,7 +46,7 @@ class Producto:
         frame_logo_productos.pack()
 
         # Logo SAMSONLOGO
-        imagen_samson = Image.open("imagenes/SAMSONLOGO.png")
+        imagen_samson = Image.open("./steamcontrol.ico")
         nueva_imagen_samson = imagen_samson.resize((60, 60))
         render_samson = ImageTk.PhotoImage(nueva_imagen_samson)
         label_samson = Label(frame_logo_productos, image=render_samson)
@@ -54,7 +54,7 @@ class Producto:
         label_samson.grid(row=0, column=0, padx=15, pady=5)
 
         # Logo PrismaLOGO
-        imagen_prisma = Image.open("imagenes/PrismaLOGO.png")
+        imagen_prisma = Image.open("./steamcontrol.ico")
         nueva_imagen_prisma = imagen_prisma.resize((60, 60))
         render_prisma = ImageTk.PhotoImage(nueva_imagen_prisma)
         label_prisma = Label(frame_logo_productos, image=render_prisma)
@@ -62,7 +62,7 @@ class Producto:
         label_prisma.grid(row=0, column=1, padx=15, pady=5)
 
         # Logo WilkersonVLOGO
-        imagen_wilkerson = Image.open("imagenes/wilkersonLOGO.png")
+        imagen_wilkerson = Image.open("./steamcontrol.ico")
         nueva_imagen_wilkerson = imagen_wilkerson.resize((60, 60))
         render_wilkerson = ImageTk.PhotoImage(nueva_imagen_wilkerson)
         label_wilkerson = Label(frame_logo_productos, image=render_wilkerson)
@@ -70,7 +70,7 @@ class Producto:
         label_wilkerson.grid(row=0, column=2, padx=15, pady=5)
 
         # logo BurkertLOGO
-        imagen_burkert = Image.open("imagenes/burkertLOGO.png")
+        imagen_burkert = Image.open("./steamcontrol.ico")
         nueva_imagen_burkert = imagen_burkert.resize((60, 60))
         render_burkert = ImageTk.PhotoImage(nueva_imagen_burkert)
         label_burkert = Label(frame_logo_productos, image=render_burkert)
@@ -78,7 +78,7 @@ class Producto:
         label_burkert.grid(row=0, column=3, padx=15, pady=5)
 
         # logo gastLOGO
-        imagen_gast = Image.open("imagenes/gastLOGO.png")
+        imagen_gast = Image.open("./steamcontrol.ico")
         nueva_imagen_gast = imagen_gast.resize((60, 60))
         render_gast = ImageTk.PhotoImage(nueva_imagen_gast)
         label_gast = Label(frame_logo_productos, image=render_gast)
@@ -86,7 +86,7 @@ class Producto:
         label_gast.grid(row=0, column=4, padx=15, pady=5)
 
         # logo rcmLOGO
-        imagen_rcm = Image.open("imagenes/rcmLOGO.png")
+        imagen_rcm = Image.open("./steamcontrol.ico")
         nueva_imagen_rcm = imagen_rcm.resize((60, 60))
         render_rcm = ImageTk.PhotoImage(nueva_imagen_rcm)
         label_rcm = Label(frame_logo_productos, image=render_rcm)
@@ -94,7 +94,7 @@ class Producto:
         label_rcm.grid(row=0, column=5, padx=15, pady=5)
 
         # logo tlvLOGO
-        imagen_tlv = Image.open("imagenes/tlvLOGO.png")
+        imagen_tlv = Image.open("./steamcontrol.ico")
         nueva_imagen_tlv = imagen_tlv.resize((60, 60))
         render_tlv = ImageTk.PhotoImage(nueva_imagen_tlv)
         label_tlv = Label(frame_logo_productos, image=render_tlv)
